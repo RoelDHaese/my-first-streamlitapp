@@ -29,7 +29,7 @@ left_column, middle_column, right_column = st.columns([3, 1, 1])
 ########
 
 
-with open("C:/Users/Roel/Desktop/my-first-streamlitapp/data/georef-switzerland-kanton.geojson", 'r') as response:
+with open("./data/georef-switzerland-kanton.geojson", 'r') as response:
     electricity = json.load(response)
 
 canton_names = {
